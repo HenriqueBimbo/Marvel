@@ -1,0 +1,51 @@
+<img src="../assets/fundo.png" id="fundo">
+<img src="../assets/marvel.png" id="fundo2">
+
+
+  
+    
+<mat-card style="background-color: #272827;"> 
+    <form id="formulario">
+      
+    
+        <h1 id="faca"> Login</h1>
+       
+        <input type="text" placeholder="Nickname" id="email" mask="AAAAAAAAAAAAAAAAA" name="nickname" [(ngModel)]="usuario.login"> <br><br>
+    
+       
+       
+       
+        <div> 
+        <input matInput [type]="hide ? 'password' : 'text' "placeholder="Password" id="senha" name="senha" [(ngModel)]="usuario.senha">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                            [attr.aria-pressed]="hide" id="olho">
+                            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </button>
+                      
+      </div>
+     
+        
+
+      
+        
+       
+     
+    
+        
+        <button type="submit" id="botao" style="color: white; font-family: Roboto Condensed; font-size: 20px;" (click)="entrar()" (click)="login()">Enter</button> <br>
+    
+        <div> 
+          <a  id="cad" (click)="registrar()"> Register 
+            <img src="../assets/avançar.png" id="avancar"> </a>
+        
+     
+        
+    
+        </div>
+        
+      </form>
+
+      
+     
+  </mat-card>
+  

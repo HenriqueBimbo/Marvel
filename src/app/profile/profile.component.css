@@ -1,0 +1,257 @@
+#cabeca {
+
+    background-color: #272827;
+    position: absolute;
+    width: 100%;
+    height: 110px;
+
+
+}
+
+#profile {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    left: 230px;
+    margin-top: 45px;
+}
+
+#log {
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    left: 310px;
+    margin-top: 45px;
+
+
+}
+
+#marvel {
+
+    position: absolute; 
+    left: 1550px;
+    top: 32px;
+    height: 50px;
+
+
+}
+
+#seta {
+
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    left: 270px;
+    margin-top: 150px;
+
+}
+
+#back {
+
+    position: absolute;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    color: black;
+    line-height: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    left: 290px;
+    margin-top: 145px;
+
+}
+
+#nick {
+
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 772px;
+    margin-top: 340px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+
+
+}
+
+#nickalter {
+
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    left: 925px;
+    margin-top: 340px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+#personal {
+
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    left: 813px;
+    margin-top: 240px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+  
+    
+  
+
+}
+
+#name {
+
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 800px;
+    margin-top: 400px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    
+}
+
+#namealter {
+
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    left: 884px;
+    margin-top: 400px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 26px;
+    
+}
+
+#email {
+
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 560px;
+    margin-top: 460px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+
+}
+
+#emailalter {
+
+    font-family: 'Roboto Condensed';
+    left: 654px;
+    margin-top: 460px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    position: absolute;
+}
+
+#contato {
+
+    position: absolute;
+    font-family: 'Inter' , sans-serif;
+    left: 1000px;
+    margin-top: 460px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+
+}
+
+#contatoalter {
+
+    position: absolute;
+    font-family: 'Roboto Condensed' ;
+    left: 1111px;
+    margin-top: 461px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+
+}
+
+#adress {
+
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 560px;
+    margin-top: 530px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+
+}
+
+#adressalter {
+    position: absolute;
+    font-family: 'Roboto Condensed' ;
+    left: 662px;
+    margin-top: 530px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+
+}
+
+#cartao {
+position: absolute;
+ margin-top: 650px;
+ left: 790px;
+
+}
+
+
+#formpay {
+
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 565px;
+    margin-top: 710px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+
+}
+
+#namecartao {
+
+    color: white;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 820px;
+    margin-top: 780px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+}
+
+#validade {
+
+    color: white;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 1060px;
+    margin-top: 780px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}
+
+#numcartao {
+
+    color: white;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    left: 820px;
+    margin-top: 730px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+
+}

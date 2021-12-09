@@ -1,0 +1,50 @@
+<img src="../assets/fundo.png" id="fundo">
+<img src="../assets/marvel.png" id="fundo2">
+
+
+  
+    
+<mat-card style="background-color: #272827;" > 
+    <form id="formulario"  [formGroup]="formGroupCadastro" (ngSubmit)="continuar()">
+
+
+      
+    
+        <h1 id="faca"> Register</h1>
+
+        <h3 id="subtitle"> Account Data</h3>
+       
+        <input  formControlName="nickname" placeholder="Nickname" id="nick" mask="AAAAAAAAAAAAAAAAAAAAAAAAAAAAA" [(ngModel)]="nickname" required> <br><br>
+     
+        <input type="text" placeholder="First Name" id="firstname" formControlName="nome"  mask="SSSSSSSSSSSSSSSSSSS" [(ngModel)]="nome"  required> <br><br>
+
+        
+        <input type="text" placeholder="Last Name" id="lastname" mask="SSSSSSSSSSSSS"  formControlName="last" [(ngModel)]="last" required> <br><br>
+        <input type="text" placeholder="E-mail" id="email2"  formControlName="email" [(ngModel)]="email"   required> <br><br>
+        <input type="text" placeholder="Contact" id="contato" mask="(00) 00000-0000"  formControlName="contato" [(ngModel)]="contato"  required> <br><br>
+
+           
+        <div> 
+          <input matInput [type]="hide ? 'password' : 'text' "placeholder="Password" id="senha"  formControlName="senha" >
+         
+                        
+        </div>
+
+        <button  type="submit" id="botao" style="color: white; font-family: 'Inter', sans-serif; font-size: 20px;" [disabled]="formGroupCadastro.valid" >Continue</button> <br>
+   
+    
+        <div> 
+          <a  id="cad" (click)="login()"> Login
+            <img src="../assets/avançar.png" id="avancar"> </a>
+        
+     
+        
+    
+        </div>
+        
+      </form>
+
+      
+     
+  </mat-card>
+  

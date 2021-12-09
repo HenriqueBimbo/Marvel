@@ -1,0 +1,55 @@
+<img src="../assets/fundo.png" id="fundo">
+<img src="../assets/marvel.png" id="fundo2">
+
+
+  
+    
+<mat-card style="background-color: #272827;"> 
+    <form id="formulario">
+
+
+      
+    
+        <h1 id="faca"> Register </h1>
+
+        <h3 id="subtitle"> Payment Data</h3>
+       
+        <input type="text" placeholder="Card Number" id="email" mask="0000 0000 0000 0000" name="numcartao" [(ngModel)]="numcartao"> <br><br>
+        <input type="text" placeholder="Validity" id="firstname" mask="00/00" name="validade" [(ngModel)]="validade"   > <br><br>
+        <input type="text" placeholder="CVV" id="firstname2" mask="000"> <br><br>
+        <input type="text" placeholder="Cardholder Name" id="cardholder" name="namecartao" [(ngModel)]="namecartao"    > <br><br>
+        
+        <input type="text" placeholder="CPF of the Holder" id="cpf" mask="000.000.000-00"> <br><br>
+    
+       
+      
+    
+       
+       
+       
+     
+        
+
+      
+        
+       
+     
+    
+        
+        <button type="submit" id="botao" style="color: white; font-family: 'Inter', sans-serif; font-size: 20px;" (click)="continuar()" >Continue</button> <br>
+    
+        <div> 
+          <a  id="cad" (click)="login()"> Login
+            <img src="../assets/avançar.png" id="avancar"> </a>
+        
+     
+        
+    
+        </div>
+        
+      </form>
+
+      
+     
+  </mat-card>
+  
